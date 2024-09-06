@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Poppins', sans-serif; */
+    outline: none;
+    text-decoration: none;
+}
+html {
+    font-size: 65.5%;
+}
+header {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 1000 !important;
+}
